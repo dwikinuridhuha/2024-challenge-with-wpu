@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "@types/chai": "^4.3.14",
+    "@types/mocha": "^10.0.6",
+    "chai": "^5.1.0",
+    "cross-env": "^7.0.3",
+    "jsdom": "24.0.0",
+    "jsdom-global": "3.0.2",
+    "mocha": "^10.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "typescript-require": "^0.3.0"
+  },
+  "scripts": {
+    "test": "mocha -r ts-node/register 'tests/*.ts'"
+  }
+}
